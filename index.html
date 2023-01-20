@@ -59,7 +59,7 @@
             {
                 plain = new THREE.Mesh(
                     new THREE.PlaneGeometry(1000, 1000),
-                    new THREE.MeshBasicMaterial({color: "#E2DFE1"})
+                    new THREE.MeshBasicMaterial({color: "#1E1F22"})
                 )
                 plain.reciveShadow = true;
                 plain.position.set(0, -1, 0)
@@ -103,7 +103,7 @@
 
             RectAreaLightUniformsLib.init();
             {
-                const rectLight = new THREE.RectAreaLight(#FFF04C, 1, 100, 100);
+                const rectLight = new THREE.RectAreaLight(0xffffff, 1, 100, 100);
                 rectLight.position.set(-10,0,0)
                 rectLight.rotation.y = Math.PI + Math.PI/4;
                 scene.add(rectLight)
