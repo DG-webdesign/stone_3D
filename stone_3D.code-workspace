@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../#2 3d three js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "#2 3d three js"
+	}
+}
